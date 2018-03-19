@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.GameEngine", "DB.GameEngine\DB.GameEngine.csproj", "{DA10857E-CC39-463E-99C2-A9F74462F6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.GameEngine.Shading.ShaderSources", "DB.GameEngine.Shading.ShaderSources\DB.GameEngine.Shading.ShaderSources.csproj", "{B85D956A-5CCE-44EC-B641-78B3F6F18509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.SimpleGame", "DB.SimpleGame\DB.SimpleGame.csproj", "{D8225CD3-A814-49F6-B412-7AA3C93A32F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA10857E-CC39-463E-99C2-A9F74462F6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA10857E-CC39-463E-99C2-A9F74462F6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA10857E-CC39-463E-99C2-A9F74462F6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA10857E-CC39-463E-99C2-A9F74462F6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85D956A-5CCE-44EC-B641-78B3F6F18509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85D956A-5CCE-44EC-B641-78B3F6F18509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85D956A-5CCE-44EC-B641-78B3F6F18509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85D956A-5CCE-44EC-B641-78B3F6F18509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8225CD3-A814-49F6-B412-7AA3C93A32F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8225CD3-A814-49F6-B412-7AA3C93A32F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8225CD3-A814-49F6-B412-7AA3C93A32F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8225CD3-A814-49F6-B412-7AA3C93A32F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5115113D-00B1-4C3E-BE7D-05934D92CCC1}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,210 @@
+﻿<Scene xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/DB.GameEngine.Objects">
+  <Children xmlns="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel">
+    <GameObject xmlns:d3p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.Objects" i:type="d3p1:TexturedModel">
+      <Children />
+      <Components xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Providers" i:type="d5p1:ObjFileProvider">
+          <d5p1:VertexShader>textureVertexShader.glsl</d5p1:VertexShader>
+          <d5p1:FileName>stall.obj</d5p1:FileName>
+        </d4p1:anyType>
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Materials" i:type="d5p1:SimpleMaterial">
+          <d5p1:FragmentShader>textureFragmentShader.glsl</d5p1:FragmentShader>
+          <d5p1:ImageName>stall.png</d5p1:ImageName>
+        </d4p1:anyType>
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Rendering" i:type="d5p1:MeshRenderer" />
+      </Components>
+      <Transformation>
+        <Rotation xmlns:d5p1="http://schemas.datacontract.org/2004/07/OpenTK">
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>0</d5p1:Z>
+        </Rotation>
+        <Scale>1</Scale>
+        <Translation xmlns:d5p1="http://schemas.datacontract.org/2004/07/OpenTK">
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>0</d5p1:Z>
+        </Translation>
+      </Transformation>
+      <camera xmlns:d4p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.Cameras" i:nil="true" />
+    </GameObject>
+    <GameObject xmlns:d3p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.Objects" i:type="d3p1:SkyBox">
+      <Children />
+      <Components xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Providers" i:type="d5p1:VertexProvider">
+          <d5p1:VertexShader>skyBoxVertexShader.glsl</d5p1:VertexShader>
+          <d5p1:mesh>
+            <Indices i:nil="true" />
+            <Normals i:nil="true" />
+            <TextureCoordinates i:nil="true" />
+            <Vertices>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+              <d4p1:float>-500</d4p1:float>
+              <d4p1:float>500</d4p1:float>
+            </Vertices>
+          </d5p1:mesh>
+        </d4p1:anyType>
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Materials" i:type="d5p1:CubeMapMaterial">
+          <d5p1:Folder>SkyBox</d5p1:Folder>
+          <d5p1:FragmentShader>skyBoxFragmentShader.glsl</d5p1:FragmentShader>
+          <d5p1:ImageNames>
+            <d4p1:string>1.png</d4p1:string>
+            <d4p1:string>2.png</d4p1:string>
+            <d4p1:string>3.png</d4p1:string>
+            <d4p1:string>4.png</d4p1:string>
+            <d4p1:string>5.png</d4p1:string>
+            <d4p1:string>6.png</d4p1:string>
+          </d5p1:ImageNames>
+        </d4p1:anyType>
+        <d4p1:anyType xmlns:d5p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel.Components.Rendering" i:type="d5p1:SkyBoxRenderer" />
+      </Components>
+      <Transformation>
+        <Rotation xmlns:d5p1="http://schemas.datacontract.org/2004/07/OpenTK">
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>0</d5p1:Z>
+        </Rotation>
+        <Scale>1</Scale>
+        <Translation xmlns:d5p1="http://schemas.datacontract.org/2004/07/OpenTK">
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>0</d5p1:Z>
+        </Translation>
+      </Transformation>
+      <camera xmlns:d4p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.Cameras" i:nil="true" />
+    </GameObject>
+  </Children>
+  <Components xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel" />
+  <Transformation xmlns="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel">
+    <Rotation xmlns:d3p1="http://schemas.datacontract.org/2004/07/OpenTK">
+      <d3p1:X>0</d3p1:X>
+      <d3p1:Y>0</d3p1:Y>
+      <d3p1:Z>0</d3p1:Z>
+    </Rotation>
+    <Scale>1</Scale>
+    <Translation xmlns:d3p1="http://schemas.datacontract.org/2004/07/OpenTK">
+      <d3p1:X>0</d3p1:X>
+      <d3p1:Y>0</d3p1:Y>
+      <d3p1:Z>0</d3p1:Z>
+    </Translation>
+  </Transformation>
+  <camera xmlns:d2p1="http://schemas.datacontract.org/2004/07/DB.GameEngine.Cameras" i:type="d2p1:PerspectiveCamera" xmlns="http://schemas.datacontract.org/2004/07/DB.GameEngine.ComponentModel">
+    <d2p1:Position xmlns:d3p1="http://schemas.datacontract.org/2004/07/OpenTK">
+      <d3p1:X>0</d3p1:X>
+      <d3p1:Y>0</d3p1:Y>
+      <d3p1:Z>50</d3p1:Z>
+    </d2p1:Position>
+    <d2p1:Rotation xmlns:d3p1="http://schemas.datacontract.org/2004/07/OpenTK">
+      <d3p1:X>0</d3p1:X>
+      <d3p1:Y>0</d3p1:Y>
+      <d3p1:Z>0</d3p1:Z>
+    </d2p1:Rotation>
+    <d2p1:Aspect>1.33333337</d2p1:Aspect>
+    <d2p1:FieldOfViewAngle>90</d2p1:FieldOfViewAngle>
+  </camera>
+</Scene>

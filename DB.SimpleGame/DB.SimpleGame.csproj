@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cube.png" />
+    <None Remove="Images\gold.png" />
+    <None Remove="Images\grass.png" />
+    <None Remove="Images\SkyBox\1.png" />
+    <None Remove="Images\SkyBox\2.png" />
+    <None Remove="Images\SkyBox\3.png" />
+    <None Remove="Images\SkyBox\4.png" />
+    <None Remove="Images\SkyBox\5.png" />
+    <None Remove="Images\SkyBox\6.png" />
+    <None Remove="Images\stall.png" />
+    <None Remove="Models\cube.obj" />
+    <None Remove="Models\dragon.obj" />
+    <None Remove="Models\stall.obj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\cube.png" />
+    <EmbeddedResource Include="Images\gold.png" />
+    <EmbeddedResource Include="Images\grass.png" />
+    <EmbeddedResource Include="Images\SkyBox\1.png" />
+    <EmbeddedResource Include="Images\SkyBox\2.png" />
+    <EmbeddedResource Include="Images\SkyBox\3.png" />
+    <EmbeddedResource Include="Images\SkyBox\4.png" />
+    <EmbeddedResource Include="Images\SkyBox\5.png" />
+    <EmbeddedResource Include="Images\SkyBox\6.png" />
+    <EmbeddedResource Include="Images\stall.png" />
+    <EmbeddedResource Include="Models\cube.obj" />
+    <EmbeddedResource Include="Models\dragon.obj" />
+    <EmbeddedResource Include="Models\stall.obj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DB.GameEngine\DB.GameEngine.csproj" />
+  </ItemGroup>
+
+</Project>
